@@ -1,5 +1,5 @@
 export type TUser = {
-    id: string,
-    name: string,
-    email: string | undefined,
+    id: number,
+    authUserId: number,
+    username: string,
 }
